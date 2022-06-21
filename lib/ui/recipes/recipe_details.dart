@@ -25,7 +25,7 @@ class RecipeDetails extends StatelessWidget {
                       child: CachedNetworkImage(
                         // TODO 1
                         imageUrl:
-                            'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
+                            'https://cdn.tasteatlas.com//images/toplistarticles/fc20fbcfe5cd4690ba0cb9614192303a.jpg?w=375&h=280',
                         alignment: Alignment.topLeft,
                         fit: BoxFit.fill,
                         width: size.width,
