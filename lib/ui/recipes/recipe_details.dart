@@ -9,7 +9,6 @@ class RecipeDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -21,14 +20,12 @@ class RecipeDetails extends StatelessWidget {
                 Stack(
                   children: [
                     Align(
-                      alignment: Alignment.topLeft,
-                      child: CachedNetworkImage(
-                        // TODO 1
-                        imageUrl:
-                            'https://cdn.tasteatlas.com//images/toplistarticles/fc20fbcfe5cd4690ba0cb9614192303a.jpg?w=375&h=280',
-                        alignment: Alignment.topLeft,
-                        fit: BoxFit.fill,
-                        width: size.width,
+                      alignment: Alignment.topCenter,
+                      // TODO 1
+                      child: Image.asset(
+                        'assets/images/pizza_w700.png',
+                        height: 200,
+                        width: 200,
                       ),
                     ),
                     Align(
